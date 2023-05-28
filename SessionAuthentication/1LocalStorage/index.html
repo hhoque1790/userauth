@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body onload="loadProfile()">
+  <section id='container'>
+    <div class="banner">
+      <p class="banner-text">Who would you like to play as?</p>
+      <div id="character"></div>
+    </div>
+      <div class="profiles">
+        <div class="profile">
+          <a href="home.html" onclick="selectProfile('lucy');"><img src="https://static-assets.codecademy.com/content/paths/web-security/sessions-cookies/localStorage-exercise/lucy.jpg" height='100' width='100' alt="Lucy Monster #1"/></a>
+          <p class="profile-name">Lucy</p>
+          </div>
+        <div class="profile">
+          <a href="home.html" onclick="selectProfile('red');"><img src="https://static-assets.codecademy.com/content/paths/web-security/sessions-cookies/localStorage-exercise/red.jpg" height='100' width='100' alt="Red Monster #2"/></a>
+          <p class="profile-name">Red</p>
+       </div>
+        <div class="profile">
+          <a href="home.html" onclick="selectProfile('maxine');" class="profile"><img src="https://static-assets.codecademy.com/content/paths/web-security/sessions-cookies/localStorage-exercise/maxine.jpg" height='100' width='100' alt="Maxine Monster #3"/></a>
+          <p class="profile-name">Maxine</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

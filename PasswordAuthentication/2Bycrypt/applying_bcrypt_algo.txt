@@ -1,0 +1,7 @@
+Algoirthm for hashing password with bcrypt without the use of a a database.
+
+-Within POST /register route generate salt and hash password before adding
+user object (containg username & hashed password) to database
+
+-Within POST /login route use bcryp.compare to compare plain text password
+to stored hashed password(2).

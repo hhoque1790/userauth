@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito';
+}
+#container{
+  background: #141c3a;
+  margin: 0;
+  display: block;
+  float: left;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+#character{
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  position: fixed;
+  right: 10px;
+  top: 30px;
+}
+.profiles {
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.profile{
+  width: 29%;
+  margin: 0 auto;
+  transition: transform .2s;
+}
+.profile:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+.profile-name{
+  color: white;
+
+  font-size: 20px;
+  margin-top: 0px;
+}
+.banner-text{
+  background-color: #D2691E; 
+  margin: 0px;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+}
+.banner{
+  display: block;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
